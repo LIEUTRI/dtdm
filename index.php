@@ -1,5 +1,5 @@
 <h1>Chu de 6</h1>
-<Form name="myform" action="index.php" method="GET">
+<Form name="myform" action="index.php" method="POST">
 <input type="hidden" name="my_tag" value="I'm Tag"/>
 Ho ten: <input type="text" name="name" value=""/>
 Email: <input type="email" name="email" value=""/>
@@ -9,6 +9,6 @@ Email: <input type="email" name="email" value=""/>
 <?php
 echo $_POST['my_tag'];
 echo "<br></br>";
-echo "Chao ban ";
-print_r($_GET['name']);
+
+print_r("Chao ban " . $_POST['name'] . ", email cua ban la" . $_POST['email']);
 ?>
