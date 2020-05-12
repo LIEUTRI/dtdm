@@ -10,5 +10,5 @@ Email: <input type="email" name="email" value=""/>
 echo $_POST['my_tag'];
 echo "<br></br>";
 
-echo "Chao ban " . $_GET['name'] ", email cua ban la " . $_GET['email']);
+echo "Chao ban " . $_GET['name'] ", email cua ban la " . $_GET['email'];
 ?>
