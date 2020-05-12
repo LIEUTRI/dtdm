@@ -7,7 +7,7 @@ Email: <input type="email" name="email" value=""/>
 </Form>
 
 <?php
-#echo $_POST['my_tag'];
+echo $_POST['my_tag'];
 #echo "<br></br>";
 #echo "Chao ban " . $_GET['name'] . ", email cua ban la " . $_GET['email'];
 print_r($_GET['name']);
