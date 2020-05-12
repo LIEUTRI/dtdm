@@ -8,6 +8,6 @@ Email: <input type="email" name="email" value=""/>
 
 <?php
 echo $_POST['my_tag'];
-#echo "<br></br>";
-print_r("Chao ban " . $_GET['name'] . ", email cua ban la " . $_GET['email']);
+echo "<br></br>";
+print_r(Chao ban $_GET['name'] , email cua ban la $_GET['email']);
 ?>
