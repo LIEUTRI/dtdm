@@ -9,6 +9,5 @@ Email: <input type="email" name="email" value=""/>
 <?php
 echo $_POST['my_tag'];
 echo "<br></br>";
-#print_r($_POST);
-echo Chao ban $_POST['name'], email cua ban la $_POST['email'];
+print_r(Chao ban $_POST['name'], email cua ban la $_POST['email']);
 ?>
