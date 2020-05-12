@@ -1,6 +1,6 @@
 <h1>Chu de 6</h1>
 <Form name="myform" action="index.php" method="POST">
-<input type="hidden" name="my_tag" value="I'm Tag"/>
+<input type="hidden" name="my_tag" value=" "/>
 Ho ten: <input type="text" name="name" value=""/>
 Email: <input type="email" name="email" value=""/>
 <input type="submit" value="Submit"/>
