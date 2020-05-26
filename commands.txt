@@ -1,0 +1,7 @@
+git add .
+git commit -m "somethings"
+git push heroku master
+
+heroku git:remote -a my-app
+
+git remote set-url origin <url>
